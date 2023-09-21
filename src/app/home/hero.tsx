@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 interface HeroProps {}
 
@@ -11,10 +12,11 @@ export const Hero = (props: HeroProps) => {
         <div className=" max-w-6xl  grid grid-cols-1 sm:grid-cols-2 text-white py-10 px-6 mx-auto">
           <div className="flex flex-col space-y-6">
             <div>
-              <img
+              <Image
                 src="/logotipo-lift-detox-black-1-150x150.png"
                 alt="Logotipo Lift Detox Black"
-                className="w-28 h-auto"
+                width={96}
+                height={96}
               />
             </div>
             <h2 className="text-3xl/8">

@@ -3,7 +3,7 @@ interface HowFunctionProps {}
 export const HowFunction = (props: HowFunctionProps) => {
   return (
     <section
-      className="bg-[#1d6a24] bg-[url(/capsulas.png)] bg-no-repeat bg-contain text-white py-16 px-6 border-y-4 
+      className="bg-[#1d6a24] bg-[url(/capsulas.png)] bg-no-repeat bg-cover bg-center text-white py-16 px-6 border-y-4 
     border-secondary"
     >
       <div className="max-w-6xl mx-auto text-center space-y-4">
