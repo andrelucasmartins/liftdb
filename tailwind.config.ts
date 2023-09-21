@@ -17,10 +17,10 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        capsulas: "url(/capsulas.png)",
-        "lift-novo": "url(/bg-lift-novo.jpg)",
-        lift: "url(/bg-lift.jpg)",
-        "lift-mobile-scaled": "url(/lift-mobile-scaled.jpg)",
+        capsulas: "url('/capsulas.png')",
+        "lift-novo": "url('/bg-lift-novo.jpg')",
+        lift: "url('/bg-lift.jpg')",
+        "lift-mobile-scaled": "url('/lift-mobile-scaled.jpg')",
       },
       colors: {
         border: "hsl(var(--border))",
