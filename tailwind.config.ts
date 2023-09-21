@@ -17,9 +17,9 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        capsulas: "url(../public/capsulas.png)",
-        "lift-novo": "url('/bg-lift-novo.jpg')",
-        lift: "url('/bg-lift.jpg')",
+        capsulas: "url(/capsulas.png)",
+        "lift-novo": "url(/bg-lift-novo.jpg)",
+        lift: "url(/bg-lift.jpg)",
         "lift-mobile-scaled": "url(/lift-mobile-scaled.jpg)",
       },
       colors: {
