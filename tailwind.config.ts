@@ -20,7 +20,7 @@ module.exports = {
         capsulas: "url('/capsulas.png')",
         "lift-novo": "url('/bg-lift-novo.jpg')",
         lift: "url('/bg-lift.jpg')",
-        "lift-mobile-scaled": "url('/lift-mobile-scaled.jpg')",
+        "lift-mobile": "url('/lift-mobile.jpg')",
       },
       colors: {
         border: "hsl(var(--border))",
