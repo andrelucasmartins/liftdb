@@ -1,5 +1,7 @@
 "use client";
 
+import logo from "@/assets/logotipo-lift-detox-black-1-150x150.png";
+
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
@@ -13,7 +15,7 @@ export const Hero = (props: HeroProps) => {
           <div className="flex flex-col space-y-6">
             <div>
               <Image
-                src="/logotipo-lift-detox-black-1-150x150.png"
+                src={logo}
                 alt="Logotipo Lift Detox Black"
                 width={96}
                 height={96}
