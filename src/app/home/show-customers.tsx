@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import { Customers } from "@/data/customers";
 import Image from "next/image";
 import "swiper/css";
 
@@ -8,20 +9,8 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { v4 as uuidv4 } from "uuid";
 
 interface ShowCustomersProps {}
-
-const Customers = [
-  { id: uuidv4(), name: "Foto 5", src: "/images/customers/foto-5.jpg" },
-  { id: uuidv4(), name: "Foto 2", src: "/images/customers/foto-2-1.jpg" },
-  { id: uuidv4(), name: "Foto 3", src: "/images/customers/foto-3-1.jpg" },
-  { id: uuidv4(), name: "Foto 4", src: "/images/customers/foto-4.jpg" },
-  { id: uuidv4(), name: "Foto 5", src: "/images/customers/foto-5.jpg" },
-  { id: uuidv4(), name: "Foto 2", src: "/images/customers/foto-2-1.jpg" },
-  { id: uuidv4(), name: "Foto 3", src: "/images/customers/foto-3-1.jpg" },
-  { id: uuidv4(), name: "Foto 4", src: "/images/customers/foto-4.jpg" },
-];
 
 export const ShowCustomers = (props: ShowCustomersProps) => {
   return (
