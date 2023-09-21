@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 import "swiper/css";
 
 import "swiper/css/pagination";
@@ -63,10 +64,12 @@ export const ShowCustomers = (props: ShowCustomersProps) => {
             {Customers.map((customer) => (
               <SwiperSlide key={customer.id}>
                 <figure>
-                  <img
+                  <Image
                     src={customer.src}
                     alt={customer.name}
-                    className="rounded-sm border-2 border-secondary"
+                    className="rounded-sm border-2 border-secondary max-w-full"
+                    width={565}
+                    height={565}
                   />
                 </figure>
               </SwiperSlide>

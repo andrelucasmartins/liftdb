@@ -8,7 +8,7 @@ interface HeroProps {}
 export const Hero = (props: HeroProps) => {
   return (
     <>
-      <section className="bg-[url(/lift-mobile-scaled.jpg)] sm:bg-[url(/bg-lift-novo.jpg)] bg-cover bg-no-repeat">
+      <section className="bg-lift-mobile-scaled sm:bg-lift-novo bg-cover bg-no-repeat">
         <div className=" max-w-6xl  grid grid-cols-1 sm:grid-cols-2 text-white py-10 px-6 mx-auto">
           <div className="flex flex-col space-y-6">
             <div>
@@ -34,13 +34,22 @@ export const Hero = (props: HeroProps) => {
               <Button className="bg-gradient-to-r from-secondary to-lime-500 text-primary py-6">
                 QUERO MEU LIFT DETOX BLACK
               </Button>
-              <img src="/compra-segura.png" alt="Compra Segura" />
+              <Image
+                src="/compra-segura.png"
+                alt="Compra Segura"
+                width={450}
+                height={450}
+                className="w-full h-full"
+              />
             </div>
           </div>
           <div className="flex justify-center items-center">
-            <img
+            <Image
               src="/lift-pagina-nova.webp"
               alt="Pode 60 cápsulas de Lift Detox Black"
+              width={524}
+              height={493}
+              className="max-w-full"
             />
           </div>
         </div>
