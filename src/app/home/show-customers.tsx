@@ -1,5 +1,7 @@
 "use client";
 
+import security_buy from "@/assets/compra-segura.png";
+
 import { Button } from "@/components/ui/button";
 import { Customers } from "@/data/customers";
 import Image from "next/image";
@@ -70,7 +72,13 @@ export const ShowCustomers = (props: ShowCustomersProps) => {
           <Button className="bg-gradient-to-r from-secondary to-lime-500 text-primary py-6">
             QUERO MEU LIFT DETOX BLACK
           </Button>
-          <img src="/compra-segura.png" alt="Compra Segura" />
+          <Image
+            src={security_buy}
+            alt="Compra Segura"
+            width={450}
+            height={450}
+            className="max-w-full"
+          />
         </div>
       </div>
     </section>

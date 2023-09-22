@@ -1,5 +1,7 @@
 "use client";
 
+import security_buy from "@/assets/compra-segura.png";
+import new_lift from "@/assets/lift-pagina-nova.webp";
 import logo from "@/assets/logotipo-lift-detox-black-1-150x150.png";
 
 import { Button } from "@/components/ui/button";
@@ -37,7 +39,7 @@ export const Hero = (props: HeroProps) => {
                 QUERO MEU LIFT DETOX BLACK
               </Button>
               <Image
-                src="/compra-segura.png"
+                src={security_buy}
                 alt="Compra Segura"
                 width={450}
                 height={450}
@@ -47,7 +49,7 @@ export const Hero = (props: HeroProps) => {
           </div>
           <div className="flex justify-center items-center">
             <Image
-              src="/lift-pagina-nova.webp"
+              src={new_lift}
               alt="Pode 60 cápsulas de Lift Detox Black"
               width={524}
               height={493}
