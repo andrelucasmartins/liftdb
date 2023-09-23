@@ -1,3 +1,4 @@
+import { Assurance } from "./home/assurance";
 import { CompositionProduct } from "./home/composition-product";
 import { Hero } from "./home/hero";
 import { HowFunction } from "./home/how-function";
@@ -10,6 +11,7 @@ export default function Home() {
       <CompositionProduct />
       <ShowCustomers />
       <HowFunction />
+      <Assurance />
     </main>
   );
 }
