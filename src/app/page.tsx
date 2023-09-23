@@ -3,6 +3,7 @@ import { CompositionProduct } from "./home/composition-product";
 import { FirstShopOnline } from "./home/first-shop-online";
 import { Hero } from "./home/hero";
 import { HowFunction } from "./home/how-function";
+import { Manufacturing } from "./home/manufacturing";
 import { ShowCustomers } from "./home/show-customers";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <CompositionProduct />
       <ShowCustomers />
       <HowFunction />
+      <Manufacturing />
       <FirstShopOnline />
       <Assurance />
     </main>
