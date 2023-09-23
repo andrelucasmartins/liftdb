@@ -4,6 +4,7 @@ import { FirstShopOnline } from "./home/first-shop-online";
 import { Hero } from "./home/hero";
 import { HowFunction } from "./home/how-function";
 import { Manufacturing } from "./home/manufacturing";
+import { PayStepByStep } from "./home/pay-step-by-step";
 import { ShowCustomers } from "./home/show-customers";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <ShowCustomers />
       <HowFunction />
       <Manufacturing />
+      <PayStepByStep />
       <FirstShopOnline />
       <Assurance />
     </main>

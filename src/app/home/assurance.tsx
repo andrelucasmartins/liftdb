@@ -35,7 +35,7 @@ export const Assurance = (props: AssuranceProps) => {
             />
           </div>
           <div className="flex flex-col space-y-2">
-            <Button className="btn-bg2 py-6" size="lg">
+            <Button className="btn-bg2 py-8 text-lg" size="lg">
               QUERO MEU LIFT DETOX BLACK
             </Button>
             <Image

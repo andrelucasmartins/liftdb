@@ -68,8 +68,8 @@ export const ShowCustomers = (props: ShowCustomersProps) => {
           </Swiper>
         </div>
 
-        <div className="flex flex-col space-y-2 max-w-xs mx-auto">
-          <Button className="bg-gradient-to-r from-secondary to-lime-500 text-primary py-6">
+        <div className="flex flex-col space-y-2 max-w-lg mx-auto">
+          <Button className="btn-bg2 py-8 text-lg">
             QUERO MEU LIFT DETOX BLACK
           </Button>
           <Image
@@ -77,7 +77,7 @@ export const ShowCustomers = (props: ShowCustomersProps) => {
             alt="Compra Segura"
             width={450}
             height={450}
-            className="max-w-full"
+            className="max-w-full mx-auto"
           />
         </div>
       </div>

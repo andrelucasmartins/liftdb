@@ -35,7 +35,7 @@ export const Hero = (props: HeroProps) => {
               que seu organismo precisa para eliminar gorduras localizadas.
             </p>
             <div className="flex flex-col space-y-2">
-              <Button className="bg-gradient-to-r from-secondary to-lime-500 text-primary py-6">
+              <Button className="btn-bg2 py-8 text-lg">
                 QUERO MEU LIFT DETOX BLACK
               </Button>
               <Image
