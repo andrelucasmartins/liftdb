@@ -16,6 +16,9 @@ module.exports = {
       },
     },
     extend: {
+      screens: {
+        xs: "480px",
+      },
       backgroundImage: {
         capsulas: "url('/capsulas.png')",
         "lift-novo": "url('/bg-lift-novo.jpg')",
