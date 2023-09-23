@@ -4,6 +4,7 @@ import how_check from "@/assets/Como-Comprar-Checkout_2-1.gif";
 import security_buy from "@/assets/Compra-Segura-Black.png";
 
 import { Button } from "@/components/ui/button";
+import { handleScroll } from "@/lib/scrollLink";
 import Image from "next/image";
 interface PayStepByStepProps {}
 export const PayStepByStep = (props: PayStepByStepProps) => {
@@ -34,7 +35,10 @@ export const PayStepByStep = (props: PayStepByStepProps) => {
           clique agora no botão abaixo e adquira seu Lift Detox Black.
         </p>
         <div className="flex flex-col space-y-2 max-w-lg mx-auto">
-          <Button className="btn-bg2 text-primary py-8 text-lg" size="lg">
+          <Button
+            className="btn-bg2 btn-lg"
+            onClick={() => handleScroll("kits")}
+          >
             QUERO MEU LIFT DETOX BLACK
           </Button>
           <Image

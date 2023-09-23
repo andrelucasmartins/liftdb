@@ -3,8 +3,9 @@
 import security_buy from "@/assets/compra-segura.png";
 import new_lift from "@/assets/lift-pagina-nova.webp";
 import logo from "@/assets/logotipo-lift-detox-black-1-150x150.png";
-
 import { Button } from "@/components/ui/button";
+import { handleScroll } from "@/lib/scrollLink";
+
 import Image from "next/image";
 
 interface HeroProps {}
@@ -35,7 +36,10 @@ export const Hero = (props: HeroProps) => {
               que seu organismo precisa para eliminar gorduras localizadas.
             </p>
             <div className="flex flex-col space-y-2">
-              <Button className="btn-bg2 py-8 text-lg">
+              <Button
+                className="btn-bg2 btn-lg"
+                onClick={() => handleScroll("kits")}
+              >
                 QUERO MEU LIFT DETOX BLACK
               </Button>
               <Image

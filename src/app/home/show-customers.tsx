@@ -4,6 +4,7 @@ import security_buy from "@/assets/compra-segura.png";
 
 import { Button } from "@/components/ui/button";
 import { Customers } from "@/data/customers";
+import { handleScroll } from "@/lib/scrollLink";
 import Image from "next/image";
 import "swiper/css";
 
@@ -69,7 +70,10 @@ export const ShowCustomers = (props: ShowCustomersProps) => {
         </div>
 
         <div className="flex flex-col space-y-2 max-w-lg mx-auto">
-          <Button className="btn-bg2 py-8 text-lg">
+          <Button
+            className="btn-bg2 py-8 text-lg"
+            onClick={() => handleScroll("kits")}
+          >
             QUERO MEU LIFT DETOX BLACK
           </Button>
           <Image

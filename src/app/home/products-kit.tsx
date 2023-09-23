@@ -8,7 +8,10 @@ interface ProductKitProps {}
 
 export const ProductKit = (props: ProductKitProps) => {
   return (
-    <section className="bg-gradient-to-t from-secondary to-lime-500 text-gray-950 py-12 px-6">
+    <section
+      className="bg-gradient-to-t from-secondary to-lime-500 text-gray-950 py-12 px-6"
+      id="kits"
+    >
       <div className="max-w-6xl mx-auto">
         <div className="text-center  mb-4">
           <h1 className="text-3xl font-bold mb-2">

@@ -7,6 +7,7 @@ import { default as new_lift_30 } from "@/assets/garantia-lift-black.png";
 import new_lift_30_white from "@/assets/Garantia-Lift-Detox-Caps.png";
 
 import { Button } from "@/components/ui/button";
+import { handleScroll } from "@/lib/scrollLink";
 import Image from "next/image";
 
 export const Assurance = (props: AssuranceProps) => {
@@ -35,7 +36,10 @@ export const Assurance = (props: AssuranceProps) => {
             />
           </div>
           <div className="flex flex-col space-y-2">
-            <Button className="btn-bg2 py-8 text-lg" size="lg">
+            <Button
+              className="btn-bg2 btn-lg"
+              onClick={() => handleScroll("kits")}
+            >
               QUERO MEU LIFT DETOX BLACK
             </Button>
             <Image
